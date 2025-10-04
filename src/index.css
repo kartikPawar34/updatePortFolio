@@ -1,0 +1,142 @@
+body{
+  background:rgb(0, 0, 0);
+  color:white;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size:1.2rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0
+}
+.Hello-heading{ 
+  margin:0rem 0.9rem 0rem 0rem;
+  font-weight: 400; 
+  color:rgb(255, 255, 255);
+  font-size:7rem;
+  font-family: "Abril Fatface", serif;
+}
+.SubHeading{
+  font-family:"DM sarof text";
+  font-weight:500;
+  font-size:3.4rem;
+}.SubHeading-s{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-Weight: 300; 
+}
+button{
+  font-family:"Raleway";
+  width:100%;
+  height:4rem;
+  border:1px solid#000000;
+  background:rgba(255, 255, 255, 0.911);
+  backdrop-filter:blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  color:#000000;
+  font-size:1.4rem;
+  border-radius:1rem;
+}
+button:hover{
+  background:#000;
+  color:goldenrod;
+  border:3px solid goldenrod;
+}
+.card{
+  flex: 0 0 320px; 
+  background:rgba(158, 158, 158, 0.322); 
+  backdrop-filter:blur(1px);
+  padding:0.9rem;
+  border-radius:1.9rem;
+  height:21rem;
+  display:flex;
+  font-size:1.2rem;
+}
+.gallery-image{
+  height:20rem;
+  width:22rem;
+  display:grid;
+  gap:0.8rem;
+  object-fit:cover;
+  border-radius:1rem;
+  margin:0.9rem;
+}
+.w3-button{
+  width:15%;
+  height:3.5rem;
+  border-radius: 10rem;
+  margin:1rem 1rem 1rem 0rem;
+  border:2px solid #fff;
+  color:#fff;
+  background-color:transparent;
+}
+.Social_Links{
+  height:3.2rem;
+  margin:0.4rem;
+}
+.container{
+  padding-top:2rem;
+}
+footer{
+  text-align:center;
+  font-family:"RomanTime";
+  font-size:0.7rem;
+  background-color:#161616;
+}
+.space{
+  font-size:0.8rem;
+}
+.scroll-container {
+  display:flex;
+  overflow-x:hidden;
+  scroll-behavior:smooth;   
+  flex-grow:1; 
+  padding:1rem; 
+  gap:1.5rem; 
+}
+/* styling theme by Kartik Pawar*/
+.src34{
+  padding:1rem;
+  transition: ease-in 1.5s;
+  border-radius:3rem 3rem 0rem 0rem;
+  position:Sticky;
+  height:33rem;
+  top:0; 
+}
+.FixWelPage{
+  background:url("FixWallpaper2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:54rem;
+  position:sticky;
+  top:0;
+  z-index:0;
+  overflow:hidden;
+  padding:1rem;
+}
+.scrollUp-1{
+  background:#e2e2e2;
+  color:#000;
+  color:#000;
+  z-index: 1;
+}.scrollUp-2{
+  background-color: #000000;
+  box-shadow: 0px -35px 0px 0px  #000000;
+  height:38rem;
+  z-index: 2;
+}.scrollUp-3{
+  background-color: #ffffff;
+  color:#000000;
+  z-index: 3;
+}.scrollUp-4{
+  background: #000000;
+  box-shadow: 0px -41px 0px 0px #000000;
+  height:35rem;
+  z-index: 4;
+}.scrollUp-5{
+  background-color:#161616;
+  box-shadow: 0px -41px 0px 0px #000000;
+  font-size:1rem;
+  height:16rem;
+  padding:2rem 2rem 0rem 1rem;
+  z-index: 5;
+}
