@@ -20,7 +20,7 @@ function CertificateSlideshow() {
   };
 
   if (totalSlides === 0) {
-    return <div>No artwork available.</div>;
+    return <div>No Certification Image Available.</div>;
   }
 
   return (
@@ -32,7 +32,7 @@ function CertificateSlideshow() {
             key={project.id}
             style={{ display: index === slideIndex ? 'block' : 'none' }} 
           >
-            <img src={project.image} alt="Art Piece" className="gallery-image" />
+            <img src={project.image} alt=" " className="gallery-image" />
           </div>
         ))}
       </div>

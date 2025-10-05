@@ -16,7 +16,6 @@ function Portfolio (){
           My name is Kartik Pawar. A design-driven Full-Stack Developer in training. I build visually stunning (React/CSS) front-ends and engineer the scalable Python (Flask/Django) back-ends that power them.
           </p>
           <Linkes/>
-          <CertificateSlideshow/>
       </div>
       <div className="src34 scrollUp-1">
           <div className="KeyInfo">
@@ -29,16 +28,18 @@ function Portfolio (){
             <Skills/>
       </div>
       <div className="src34 scrollUp-3">
-            <h1 class="SubHeading">Projects</h1>
-            <Projects/>
+            <h1 class="SubHeading ">Certifications</h1>
+            <CertificateSlideshow/>
       </div>
       <div className="src34 scrollUp-4">
-            <h2 class="SubHeading-s">Sketchbook & Concept Art</h2>
-            <ProjectGallery/>
-
+            <h1 class="SubHeading-s">Projects</h1>
+            <Projects/>
       </div>
       <div className="src34 scrollUp-5">
-        
+            <h2 class="SubHeading">Sketchbook & Concept Art</h2>
+            <ProjectGallery/>
+      </div>
+      <div className="src34 scrollUp-6">
         <ConnectMeSection/>
       </div> 
       <footer>{new Date().getFullYear()}Portfolio Belongs To Kartik Pawar</footer>
