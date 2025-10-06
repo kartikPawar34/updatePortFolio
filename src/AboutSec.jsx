@@ -5,12 +5,11 @@ function Info() {
   }
 
   return (
-    <div className="sc1">
-      <p className="about">
-        I’m currently pursuing a Bachelor of Technology in Computer Science and Design at Gyan Ganga Institute of Technology and Sciences, located in Jabalpur, Madhya Pradesh.
-        
-      </p>
-      <button onClick={openCanvaResume}>Resume</button>
+    <div className="sc">
+        <p className="about">
+          I’m currently pursuing a Bachelor of Technology in Computer Science and Design at Gyan Ganga Institute of Technology and Sciences, located in Jabalpur, Madhya Pradesh.
+        </p> 
+      <button onClick={openCanvaResume} className="ResumeButton">Resume</button>
     </div>
   );
 }

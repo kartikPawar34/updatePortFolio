@@ -25,6 +25,7 @@ function CertificateSlideshow() {
 
   return (
     <div className="slideshow-container"> 
+    <div className="slideshow-1">
       <div className="slide-wrapper">
         {projectData.map((project, index) => (
           <div 
@@ -35,6 +36,10 @@ function CertificateSlideshow() {
             <img src={project.image} alt=" " className="gallery-image" />
           </div>
         ))}
+      </div>
+      <div className="aboutCertification">
+        <p className="cerInfo">I’ve built my technical foundation through specialized certifications in Agile methodologies, Cloud Computing (IBM–Coursera), CCNA (Cisco), and Cybersecurity fundamentals. These programs have equipped me with practical knowledge in cloud-native architecture, network configuration, secure system design, and agile project execution.</p>
+      </div>
       </div>
 
       <button 

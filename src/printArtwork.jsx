@@ -25,30 +25,37 @@ function ImageSlideshow() {
 
   return (
     <div className="slideshow-container"> 
-      <div className="slide-wrapper">
-        {projectData.map((project, index) => (
-          <div 
-            className="mySlides" 
-            key={project.id}
-            style={{ display: index === slideIndex ? 'block' : 'none' }} 
-          >
-            <img src={project.image} alt="Art Piece" className="gallery-image" />
-          </div>
-        ))}
+      <div className="slideshow-1">
+        <div className="slide-wrapper">
+          {projectData.map((project, index) => (
+            <div 
+              className="mySlides" 
+              key={project.id}
+              style={{ display: index === slideIndex ? 'block' : 'none' }} 
+            >
+              <img src={project.image} alt="Art Piece" className="gallery-image" />
+            </div>
+          ))}
+        </div>
+        <div className="artinfo">
+          <p className="cerInfo">
+              Shading is my tool for sculpting realism and form. I make every stroke deliberate, focusing on depth, tension, and structure. It comes down to two things: using contrast to guide the eye and texture to communicate story. These graphite pieces are not just drawings; they’re executed moments brought to life.      
+          </p>
+        </div>
       </div>
 
-      <button 
-        className="w3-button w3-black w3-display-left" 
-        onClick={() => plusDivs(-1)} 
-      >
-        &#10094;
-      </button>
-      <button 
-        className="w3-button w3-black w3-display-right" 
-        onClick={() => plusDivs(1)} 
-      >
-        &#10095;
-      </button>
+        <button 
+          className="w3-button w3-black w3-display-left" 
+          onClick={() => plusDivs(-1)} 
+        >
+          &#10094;
+        </button>
+        <button 
+          className="w3-button w3-black w3-display-right" 
+          onClick={() => plusDivs(1)} 
+        >
+          &#10095;
+        </button>
     </div>
   );
 }

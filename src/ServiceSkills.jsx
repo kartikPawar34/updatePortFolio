@@ -24,7 +24,7 @@ function Skills() {
 
   const scroll = (direction) => {
     if (scrollRef.current) {
-      const scrollAmount = 350; 
+      const scrollAmount = 300; 
       
       const { scrollLeft, clientWidth, scrollWidth } = scrollRef.current;
       
@@ -45,9 +45,7 @@ function Skills() {
 
   return (
     <div className="skills-section-wrapper">
-      <div className="carousel-controls">
-        
-        
+      <div className="carousel-controls">        
         <div className="scroll-container" ref={scrollRef}>
           {skillTexts.map((skill) => (
             <SkillCard key={skill.id} text={skill.text} />

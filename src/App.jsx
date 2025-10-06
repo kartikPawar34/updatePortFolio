@@ -5,6 +5,7 @@ import ProjectGallery from "./printArtwork";
 import ConnectMeSection from "./GetInTouch";
 import Info from "./AboutSec";
 import CertificateSlideshow from "./printCert";
+import SkillsSection from "./SkillsChart";
 function Portfolio (){
   return (
     <>
@@ -19,8 +20,9 @@ function Portfolio (){
       </div>
       <div className="src34 scrollUp-1">
           <div className="KeyInfo">
-            <h1 class="SubHeading gol23">About</h1>
+            <h1 class="SubHeading gol23 ">About</h1>
                <Info/>
+               <SkillsSection/>
           </div>   
       </div>
       <div className="src34 scrollUp-2">
@@ -36,7 +38,7 @@ function Portfolio (){
             <Projects/>
       </div>
       <div className="src34 scrollUp-5">
-            <h2 class="SubHeading">Sketchbook & Concept Art</h2>
+            <h2 class="SubHeading">Sketchbook & Art</h2>
             <ProjectGallery/>
       </div>
       <div className="src34 scrollUp-6">
