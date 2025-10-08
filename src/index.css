@@ -233,9 +233,7 @@
     color: #ffffff; 
     padding-left: 0.2rem; 
   }
-  .certification{
-    display:none;
-  }
+  
   @media screen and (min-width: 1024px) {
       body {
           font-size: 1.5rem;
@@ -461,8 +459,9 @@
     flex: 0 0 90%;
   }
   .gallery-image {
-    width: 100%;
+    width:85%;
     height: auto;
+    margin:auto;
   }
   .skills-content {
     flex-direction: column;
@@ -473,6 +472,9 @@
   }
   .cerInfo{
     display: none;
+  }
+  .certification{
+    display:none;
   }
 }
 
@@ -496,6 +498,9 @@
   }
   .carInfo1{
     display: none;
+  }
+  .certification{
+    display:none;
   }
 }
 
