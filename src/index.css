@@ -118,16 +118,17 @@
     top:0; 
   }
   .FixWelPage{
-    background:url("FixWallpaper2.jpg");
+    background:url("FixWallpaper1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
-    height:35rem;
+    height:50%;
     position:sticky;
     top:0;
     z-index:0;
     overflow:hidden;
     padding:1rem;
+    box-shadow:0px 46px 0px 0px rgba(97, 86, 86, 0.397);
   }
   .scrollUp-1{
     background:#ffffff;
