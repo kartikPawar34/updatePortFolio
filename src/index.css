@@ -76,12 +76,12 @@
     background-color:transparent;
   }
   .Social_Links{
-    height:3.2rem;
+    height:4.2rem;
     margin:0.4rem;
     transition: ease-in-out 0.2s;
   }
   .Social_Links:hover{
-    height:4.2rem;
+    height:5.2rem;
     margin:0.5rem;
     transform: translatey(-10px);
   }
@@ -436,6 +436,12 @@
   .Hello-heading {
     font-size: 6rem;
   }
+  .Social_Links{
+    height:3rem;
+  }
+  .Social_Links:hover{
+    height:3rem;
+  }
   .SubHeading {
     font-size: 2.8rem;
   }
@@ -454,6 +460,9 @@
   .skills-content {
     flex-direction: column;
     align-items: center;
+  }
+  .insta{
+    display:none;
   }
 }
 
@@ -474,26 +483,6 @@
   .gallery-image {
     width: 100%;
     height: auto;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  .Hello-heading {
-    font-size: 8rem;
-  }
-  .SubHeading {
-    font-size: 3.4rem;
-  }
-  button {
-    font-size: 1.4rem;
-    height: 4rem;
-  }
-  .card {
-    flex: 0 0 320px;
-  }
-  .gallery-image {
-    width: 22rem;
-    height: 20rem;
   }
 }
 

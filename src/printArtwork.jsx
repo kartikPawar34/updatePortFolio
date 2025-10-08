@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import projectData from './assets/artWork';
+import instagram from'./assets/instagram.png';
 
 function ImageSlideshow() {
   const [slideIndex, setSlideIndex] = useState(0); 
@@ -41,6 +42,13 @@ function ImageSlideshow() {
           <p className="cerInfo">
               Shading is my tool for sculpting realism and form. I make every stroke deliberate, focusing on depth, tension, and structure. It comes down to two things: using contrast to guide the eye and texture to communicate story. These graphite pieces are not just drawings; they’re executed moments brought to life.      
           </p>
+          <div className="insta">
+          <p><b>Do Follow</b></p>
+          <a href="https://www.instagram.com/arte_playlist/">
+          <img src={instagram} alt="Instagram logo" className="Social_Links"/>
+          </a>
+          </div>
+          
         </div>
       </div>
 
