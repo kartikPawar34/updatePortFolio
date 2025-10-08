@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kartikPawar34.github.io/Kartik-Pawar-2nd-Portfolio-", 
+  "homepage": "https://kartikPawar34.github.io/Kartik-Pawar-2nd-Portfolio-",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

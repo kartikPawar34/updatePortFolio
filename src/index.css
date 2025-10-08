@@ -1,435 +1,501 @@
-body{
-  background-color:#000000;
-  color:white;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-size:1.2rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0
-}
-.Hello-heading{ 
-  margin:0rem 0.9rem 0rem 0rem;
-  font-weight: 400; 
-  color:rgb(255, 255, 255);
-  font-size:7rem;
-  font-family: "Abril Fatface", serif;
-}
-.SubHeading{
-  font-family:"DM sarof text";
-  font-weight:500;
-  font-size:3.4rem;
-  margin-top:0rem;
-}.SubHeading-s{
-  margin-top:0rem;
-  font-family: "Montserrat Alternates", sans-serif;
-  font-Weight: 300; 
-}
-button{
-  font-family:"Raleway";
-  width:100%;
-  height:4rem;
-  border:1px solid#000000;
-  background:rgba(255, 255, 255, 0.911);
-  backdrop-filter:blur(1px);
-  -webkit-backdrop-filter: blur(1px);
-  color:#000000;
-  font-size:1.4rem;
-  border-radius:1rem;
-  transition: ease-in-out 0.2s;
+  body{
+    background-color:#000000;
+    color:white;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size:1.2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0
+  }
+  .Hello-heading{ 
+    margin:0rem 0.9rem 0rem 0rem;
+    font-weight: 400; 
+    color:rgb(255, 255, 255);
+    font-size:7rem;
+    font-family: "Abril Fatface", serif;
+  }
+  .SubHeading{
+    font-family:"DM sarof text";
+    font-weight:500;
+    font-size:3.4rem;
+    margin-top:0rem;
+  }.SubHeading-s{
+    margin-top:0rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-Weight: 300; 
+  }
+  button{
+    font-family:"Raleway";
+    width:100%;
+    height:4rem;
+    border:1px solid#000000;
+    background:rgba(255, 255, 255, 0.911);
+    backdrop-filter:blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    color:#000000;
+    font-size:1.4rem;
+    border-radius:1rem;
+    transition: ease-in-out 0.2s;
 
-}
-button:hover{
-  background:#000;
-  color:rgb(255, 255, 255);
-  border:3px solid rgb(255, 255, 255);
-  transform:scale(1.05);
-  height:5rem;
-}
-.card{
-  flex: 0 0 320px; 
-  background:rgba(158, 158, 158, 0.322); 
-  backdrop-filter:blur(1px);
-  padding:0.9rem;
-  border-radius:1.9rem;
-  height:21rem;
-  display:flex;
-  font-size:1.2rem;
-  
-}
-.gallery-image{
-  height:20rem;
-  width:22rem;
-  display:grid;
-  gap:0.8rem;
-  object-fit:cover;
-  box-shadow: -10px 10px 10px rgb(0, 0, 0);
-  transition:ease-in 0.2s;
-}
-.w3-button{
-  width:15%;
-  height:3.5rem;
-  border-radius: 10rem;
-  margin:1rem 1rem 1rem 0rem;
-  border:2px solid #868686;
-  color:#858585;
-  background-color:transparent;
-}
-.Social_Links{
-  height:3.2rem;
-  margin:0.4rem;
-  transition: ease-in-out 0.2s;
-}
-.Social_Links:hover{
-  height:4.2rem;
-  margin:0.5rem;
-  transform: translatey(-10px);
-}
-.container{
-  padding-top:2rem;
-}
-footer{
-  text-align:center;
-  font-family:"RomanTime";
-  font-size:0.7rem;
-  background-color:#000000;
-  position:sticky;
-  z-index:10;
-}
-.space{
-  font-size:0.8rem;
-}
-.scroll-container {
-  display:flex;
-  overflow-x:hidden;
-  scroll-behavior:smooth;   
-  flex-grow:1;  
-  gap:0.5rem; 
-}
-.cerInfo{
-  margin-top:2rem;
-  font-size:0.9rem;
-}
-/* styling theme by Kartik Pawar*/
-.src34{
-  padding:1rem;
-  transition: ease-in 1.5s;
-  border-radius:3rem 3rem 0rem 0rem;
-  position:Sticky;
-  top:0; 
-}
-.FixWelPage{
-  background:url("FixWallpaper2.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size:cover;
-  height:35rem;
-  position:sticky;
-  top:0;
-  z-index:0;
-  overflow:hidden;
-  padding:1rem;
-}
-.scrollUp-1{
-  background:#ffffff;
-  color:#000;
-  height:60rem;
-  z-index: 1;
-}.scrollUp-2{
-  background-color: #000000;
-  height:60rem;
-  z-index: 2;
-}.scrollUp-3{
-  background-color: #ffffff;
-  color:#000000;
-  height:60rem;
-  z-index: 3;
-}.scrollUp-4{
-  background: #000000;
-  height:60rem;
-  z-index: 4;
-}.scrollUp-5{
-  background-color:#ffffff;
-  color:#000;
-  height:50rem;
-  z-index: 5;
-}.scrollUp-6{
-  background-color:#000000;
-  font-size:1rem;
-  height:16rem;
-  z-index: 5;
-}/*Graph*/
-.skills-section-container {
-  background-color: #000000;
-  color: #ffffff;
-  font-family: Arial, sans-serif; 
-  margin:1rem 0rem;
-  padding:1rem;
-  text-align: center;
-}
-.skills-heading {
-  color: #ffffff; 
-  margin-bottom: 1rem;
-  font-weight: 400;
-}
-.skills-description {
-  max-width: 800px;
-  margin: 0 auto 3rem auto;
-  line-height: 1;
-  color: #cccccc;
-}
-.skills-content {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-  gap: 1rem;
-  max-width: 500px;
-  margin: 0 auto;
-}
-.skill-category {
-  flex: 1 1 45%;
-  min-width: 300px; 
-  text-align: left;
-}
-.category-title {
-  font-size:1rem;
-  color: #ffffff;
-  margin-bottom: 2rem;
-  font-weight: 300;
-}
-.skill-bar-wrapper {
-  margin-bottom: 1rem;
-}
-.skill-name {
-  display: block;
-  font-size: 0.7rem;
-  color: #dddddd;
-  margin-bottom: 0.1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-.skill-bar-outer {
-  background-color: #3f3f3f;
-  height: 0.5rem;
-  border-radius: .25rem;
-  overflow: hidden;
-  position: relative;
-}
-.skill-bar-inner {
-  background-color: #3ca7ff; 
-  height: 100%;
-  border-radius: 0.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 0.5rem;
-}
-.skill-percentage {
-  position: absolute;
-  right: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 0.6rem;
-  font-weight: ;
-  color: #ffffff; 
-  padding-left: 0.2rem; 
-}
-@media screen and (min-width: 1024px) {
-    body {
-        font-size: 1.5rem;
-        display: block;
-    }
-    .Hello-heading {
-        font-size: 12rem;
-        margin: 10rem 1rem 0rem 0rem;
-        transition:ease-in-out 0.2s;
+  }
+  button:hover{
+    background:#000;
+    color:rgb(255, 255, 255);
+    border:3px solid rgb(255, 255, 255);
+    transform:scale(1.05);
+    height:5rem;
+  }
+  .card{
+    flex: 0 0 320px; 
+    background:rgba(158, 158, 158, 0.322); 
+    backdrop-filter:blur(1px);
+    padding:0.9rem;
+    border-radius:1.9rem;
+    height:21rem;
+    display:flex;
+    font-size:1.2rem;
+    
+  }
+  .gallery-image{
+    height:20rem;
+    width:22rem;
+    display:grid;
+    gap:0.8rem;
+    object-fit:cover;
+    box-shadow: -10px 10px 10px rgb(0, 0, 0);
+    transition:ease-in 0.2s;
+  }
+  .w3-button{
+    width:4rem;
+    height:4rem;
+    border-radius: 10rem;
+    margin:1rem 1rem 1rem 0rem;
+    border:2px solid #868686;
+    color:#858585;
+    background-color:transparent;
+  }
+  .Social_Links{
+    height:3.2rem;
+    margin:0.4rem;
+    transition: ease-in-out 0.2s;
+  }
+  .Social_Links:hover{
+    height:4.2rem;
+    margin:0.5rem;
+    transform: translatey(-10px);
+  }
+  .container{
+    padding-top:2rem;
+  }
+  footer{
+    text-align:center;
+    font-family:"RomanTime";
+    font-size:0.7rem;
+    background-color:#000000;
+    position:sticky;
+    z-index:10;
+  }
+  .space{
+    font-size:0.8rem;
+  }
+  .scroll-container {
+    display:flex;
+    overflow-x:hidden;
+    scroll-behavior:smooth;   
+    flex-grow:1;  
+    gap:0.5rem; 
+  }
+  .cerInfo{
+    margin-top:2rem;
+    font-size:0.9rem;
+  }
+  /* styling theme by Kartik Pawar*/
+  .src34{
+    padding:1rem;
+    transition: ease-in 1.5s;
+    border-radius:3rem 3rem 0rem 0rem;
+    position:Sticky;
+    top:0; 
+  }
+  .FixWelPage{
+    background:url("FixWallpaper2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:35rem;
+    position:sticky;
+    top:0;
+    z-index:0;
+    overflow:hidden;
+    padding:1rem;
+  }
+  .scrollUp-1{
+    background:#ffffff;
+    color:#000;
+    height:60rem;
+    z-index: 1;
+  }.scrollUp-2{
+    background-color: #000000;
+    height:60rem;
+    z-index: 2;
+  }.scrollUp-3{
+    background-color: #ffffff;
+    color:#000000;
+    height:60rem;
+    z-index: 3;
+  }.scrollUp-4{
+    background: #000000;
+    height:60rem;
+    z-index: 4;
+  }.scrollUp-5{
+    background-color:#ffffff;
+    color:#000;
+    height:50rem;
+    z-index: 5;
+  }.scrollUp-6{
+    background-color:#000000;
+    font-size:1rem;
+    height:16rem;
+    z-index: 5;
+  }/*Graph*/
+  .skills-section-container {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif; 
+    margin:1rem 0rem;
+    padding:1rem;
+    text-align: center;
+    border-radius:0.5rem;
+  }
+  .skills-heading {
+    color: #ffffff; 
+    margin-bottom: 1rem;
+    font-weight: 400;
+  }
+  .skills-description {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    line-height: 1;
+    color: #cccccc;
+  }
+  .skills-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .skill-category {
+    flex: 1 1 45%;
+    min-width: 300px; 
+    text-align: left;
+  }
+  .category-title {
+    font-size:1rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    font-weight: 300;
+  }
+  .skill-bar-wrapper {
+    margin-bottom: 1rem;
+  }
+  .skill-name {
+    display: block;
+    font-size: 0.7rem;
+    color: #dddddd;
+    margin-bottom: 0.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .skill-bar-outer {
+    background-color: #3f3f3f;
+    height: 0.5rem;
+    border-radius: .25rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .skill-bar-inner {
+    background-color: #3ca7ff; 
+    height: 100%;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+  }
+  .skill-percentage {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.6rem;
+    font-weight: ;
+    color: #ffffff; 
+    padding-left: 0.2rem; 
+  }
+  @media screen and (min-width: 1024px) {
+      body {
+          font-size: 1.5rem;
+          display: block;
       }
-      .Hello-heading:hover{
-        transform:translatex(-5px);
-        margin-left:1rem;
+      .Hello-heading {
+          font-size: 12rem;
+          margin: 10rem 1rem 0rem 0rem;
+          transition:ease-in-out 0.2s;
+        }
+        .Hello-heading:hover{
+          transform:translatex(-5px);
+          margin-left:1rem;
+        }
+        .welInfo{
+          margin-right:50%;
+        }
+        .SubHeading {
+          font-size: 5rem;
+          transition:ease-in-out 0.6s;
+        }
+        .SubHeading-s {
+          font-size: 4.8rem;
+          font-Weight: 400;
+          transition:ease-in-out 0.2s;
       }
-      .welInfo{
-        margin-right:50%;
+      button {
+          width:100%;
+          height: 4.5rem;
+          font-size: 1.6rem;
+          cursor: pointer; 
       }
-      .SubHeading {
-        font-size: 5rem;
-        transition:ease-in-out 0.6s;
+      .w3-button {
+          width: 5rem;
+          height: 5rem;
+          font-size: 1.1rem;
+          margin: 1rem 1rem 1rem 0rem;
+          cursor: pointer;
+          border:3px solid rgb(107, 107, 107);
       }
-      .SubHeading-s {
-        font-size: 4.8rem;
-        font-Weight: 400;
-        transition:ease-in-out 0.2s;
-    }
-    button {
-        width:100%;
-        height: 4.5rem;
-        font-size: 1.6rem;
-        cursor: pointer; 
-    }
-    .w3-button {
-        width: 5rem;
-        height: 5rem;
-        font-size: 1.1rem;
-        margin: 1rem 1rem 1rem 0rem;
-        cursor: pointer;
-        border:3px solid rgb(107, 107, 107);
-    }
-    .container {
-        padding-top: 3rem;
-        max-width: 1400px;
-        margin: 0rem;
-    }
-    .card {
-        flex: 50 50 50%;
-        height:20rem;
-        box-shadow: -10px 10px 0px rgb(202, 202, 202);
-        transition:ease-in 0.2s;
-    }
-    .card:hover{
-        box-shadow: -10px 10px 0px rgba(133, 133, 133, 0.5);
-        background:#dddddd;
-        color:#000;
+      .container {
+          padding-top: 3rem;
+          max-width: 1400px;
+          margin: 0rem;
+      }
+      .card {
+          flex: 50 50 50%;
+          height:20rem;
+          box-shadow: -10px 10px 0px rgb(202, 202, 202);
+          transition:ease-in 0.2s;
+      }
+      .card:hover{
+          box-shadow: -10px 10px 0px rgba(133, 133, 133, 0.5);
+          background:#dddddd;
+          color:#000;
 
-    }
-    .scroll-container {
-        padding: 0 2rem;
-        gap: 1.5rem; 
-        height:25rem;
-    }
-    .gallery-image {
-        height:40rem;
-        width:51.9rem;
-        transition:ease-in 0.2s;
-    }
-    .gallery-image:hover{
-      box-shadow: -10px 10px 10px #414141;
-    }
-    .cerInfo{
-        font-size:1.4rem;
-    }
-    .slideshow-1{
-        display:flex;
-        gap:2rem;
-    }
-    .FixWelPage {
-        height: 50rem;
-        padding: 2rem 2.5rem 0 2.5rem;
-    }
-    .src34 {
-        padding: 2rem 2.5rem 0 2.5rem;
-        transition: ease-in 1s; 
-    }
-    .scrollUp-5 {
-      height:70rem;
-    }.scrollUp-6 {
-      height:17rem;
-    }    
-    .skills-section-container {
-        margin-top:4rem;
-        background-color: #c7c7c7;
-        color: #000000;
-        font-family: Arial, sans-serif; 
-        padding:2rem;
-        text-align: center;
-        transition:ease-in 0.2s;
-        box-shadow: -10px 10px 0px #000000;
       }
-      .skills-section-container:hover{
-        box-shadow: -10px 10px 0px rgb(92, 92, 92);
-        background-color:#000;
+      .scroll-container {
+          padding: 0 2rem;
+          gap: 1.5rem; 
+          height:25rem;
       }
-      .skills-heading {
-        font-size: 1.5rem;
-        color: #0084ff; 
-        margin-bottom: 1rem;
-        font-weight: 700;
+      .gallery-image {
+          height:40rem;
+          width:51.9rem;
+          transition:ease-in 0.2s;
       }
-      .skills-description {
-        font-size: 1rem;
-        max-width: 800px;
-        margin: 0 auto 3rem auto;
-        line-height: 1.5;
-        color: #000000;
+      .gallery-image:hover{
+        box-shadow: -10px 10px 10px #414141;
       }
-      .skills-content {
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;
-        gap: 3rem;
-        max-width: 120rem;
-        margin: 0 auto;
+      .cerInfo{
+          font-size:1.4rem;
       }
-      .skill-category {
-        flex: 1 1 45%; 
-        min-width: 300px; 
-        text-align: left;
-        transition:ease-in 0.2s;
+      .slideshow-1{
+          display:flex;
+          gap:2rem;
       }
-      .category-title {
-        font-size: 1.5rem;
-        color: #000000;
-        margin-bottom: 2rem;
-        transition:ease-in 0.2s;
-        font-weight: 300;
+      .FixWelPage {
+          height: 50rem;
+          padding: 2rem 2.5rem 0 2.5rem;
       }
-      .skill-bar-wrapper {
-        margin-bottom: 1.5rem;
-        
+      .src34 {
+          padding: 2rem 2.5rem 0 2.5rem;
+          transition: ease-in 1s; 
       }
-      .skill-name {
-        display: block;
-        font-size: 0.9rem;
-        color: #000000;
-        margin-bottom: 0.5rem;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        transition:ease-in 0.2s;
-      }
-      .skill-bar-outer {
-        background-color: #686868;
-        height: 1.2rem;
-        overflow: hidden;
-        position: relative;
-        transition:ease-in 0.2s;
-        
-      }
-      .skill-bar-inner {
-        background-color: #000000; 
-        height: 100%;
-        border-radius: 0.25rem;
-        display: flex;
-        align-items: center;
-        justify-content: flex-end; 
-        padding-right: 0rem; 
-        transition:ease-in 0.2s;
-      }
-      .skills-section-container:hover .skill-bar-outer{ 
-        background-color:rgb(114, 114, 114);
-      }
-      .skills-section-container:hover .skill-bar-inner{ 
-        background-color:rgb(255, 255, 255);
-      }
-      .skills-section-container:hover .skill-percentage{
-        color:#000;
-      }
-      .skills-section-container:hover .skill-name{
-        color:#ffffff;
-      }
-      .skills-section-container:hover .category-title {
-        color:#ffffff;
-      }
-      .skill-percentage {
-        position: absolute;
-        right: 0.5rem;
-        top: 50%;
-        transform: translateY(-50%);
-        font-size: 0.8rem;
-        font-weight: bold;
-        color: #ffffff;
-        background-color: transparent; 
-        padding-left: 0.2rem;
-        transition:ease-in 0.2s;
-      }
+      .scrollUp-5 {
+        height:70rem;
+      }.scrollUp-6 {
+        height:17rem;
+      }    
+      .skills-section-container {
+          margin-top:4rem;
+          background-color: #c7c7c7;
+          color: #000000;
+          font-family: Arial, sans-serif; 
+          padding:2rem;
+          text-align: center;
+          transition:ease-in 0.2s;
+          box-shadow: -10px 10px 0px #000000;
+        }
+        .skills-section-container:hover{
+          box-shadow: -10px 10px 0px rgb(92, 92, 92);
+          background-color:#000;
+        }
+        .skills-heading {
+          font-size: 1.5rem;
+          color: #0084ff; 
+          margin-bottom: 1rem;
+          font-weight: 700;
+        }
+        .skills-description {
+          font-size: 1rem;
+          max-width: 800px;
+          margin: 0 auto 3rem auto;
+          line-height: 1.5;
+          color: #000000;
+        }
+        .skills-content {
+          display: flex;
+          flex-wrap: wrap; 
+          justify-content: center;
+          gap: 3rem;
+          max-width: 120rem;
+          margin: 0 auto;
+        }
+        .skill-category {
+          flex: 1 1 45%; 
+          min-width: 300px; 
+          text-align: left;
+          transition:ease-in 0.2s;
+        }
+        .category-title {
+          font-size: 1.5rem;
+          color: #000000;
+          margin-bottom: 2rem;
+          transition:ease-in 0.2s;
+          font-weight: 300;
+        }
+        .skill-bar-wrapper {
+          margin-bottom: 1.5rem;
+          
+        }
+        .skill-name {
+          display: block;
+          font-size: 0.9rem;
+          color: #000000;
+          margin-bottom: 0.5rem;
+          text-transform: uppercase;
+          letter-spacing: 0.05em;
+          transition:ease-in 0.2s;
+        }
+        .skill-bar-outer {
+          background-color: #686868;
+          height: 1.2rem;
+          overflow: hidden;
+          position: relative;
+          transition:ease-in 0.2s;
+          
+        }
+        .skill-bar-inner {
+          background-color: #000000; 
+          height: 100%;
+          border-radius: 0.25rem;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end; 
+          padding-right: 0rem; 
+          transition:ease-in 0.2s;
+        }
+        .skills-section-container:hover .skill-bar-outer{ 
+          background-color:rgb(114, 114, 114);
+        }
+        .skills-section-container:hover .skill-bar-inner{ 
+          background-color:rgb(255, 255, 255);
+        }
+        .skills-section-container:hover .skill-percentage{
+          color:#000;
+        }
+        .skills-section-container:hover .skill-name{
+          color:#ffffff;
+        }
+        .skills-section-container:hover .category-title {
+          color:#ffffff;
+        }
+        .skill-percentage {
+          position: absolute;
+          right: 0.5rem;
+          top: 50%;
+          transform: translateY(-50%);
+          font-size: 0.8rem;
+          font-weight: bold;
+          color: #ffffff;
+          background-color: transparent; 
+          padding-left: 0.2rem;
+          transition:ease-in 0.2s;
+        }
+  }
+@media screen and (max-width: 480px) {
+  .Hello-heading {
+    font-size: 6rem;
+  }
+  .SubHeading {
+    font-size: 2.8rem;
+  }
+  button {
+    font-size: 1rem;
+    height: 3rem;
+  }
+  .card {
+    height: 18rem;
+    flex: 0 0 90%;
+  }
+  .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+  .skills-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-  
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .Hello-heading {
+    font-size: 7rem;
+  }
+  .SubHeading {
+    font-size: 2.4rem;
+  }
+  button {
+    font-size: 1.2rem;
+    height: 3.5rem;
+  }
+  .card {
+    flex: 0 0 80%;
+  }
+  .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .Hello-heading {
+    font-size: 8rem;
+  }
+  .SubHeading {
+    font-size: 3.4rem;
+  }
+  button {
+    font-size: 1.4rem;
+    height: 4rem;
+  }
+  .card {
+    flex: 0 0 320px;
+  }
+  .gallery-image {
+    width: 22rem;
+    height: 20rem;
+  }
+}
+
+
+    
