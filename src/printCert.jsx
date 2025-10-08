@@ -1,5 +1,7 @@
 import projectData from "./assets/certification";
 import { useState } from 'react';
+import cisco from "./assets/Cisco.png";
+import coursera from "./assets/coursera.png";
 
 function CertificateSlideshow() {
   const [slideIndex, setSlideIndex] = useState(0); 
@@ -38,7 +40,13 @@ function CertificateSlideshow() {
         ))}
       </div>
       <div className="aboutCertification">
-        <p className="cerInfo">I’ve built my technical foundation through specialized certifications in Agile methodologies, Cloud Computing (IBM–Coursera), CCNA (Cisco), and Cybersecurity fundamentals. These programs have equipped me with practical knowledge in cloud-native architecture, network configuration, secure system design, and agile project execution.</p>
+        <p className="cerInfo">I’ve built my technical foundation through specialized certifications in Agile methodologies, Cloud Computing (IBM-Coursera), CCNA (Cisco), and Cybersecurity fundamentals. These programs have equipped me with practical knowledge in cloud-native architecture, network configuration, secure system design, and agile project execution.</p>
+        <p className="carInfo1">
+          Specialized certifications in Agile, Cloud Computing, CCNA, and Cybersecurity have equipped me with practical skills in cloud-native architecture, network configuration, secure system design, and agile project execution.
+        </p>
+        <div className="insta">
+          <img className="certification" src={cisco}/><img className="certification" src={coursera}/>
+        </div>
       </div>
       </div>
 

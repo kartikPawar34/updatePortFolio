@@ -42,6 +42,7 @@ function ImageSlideshow() {
           <p className="cerInfo">
               Shading is my tool for sculpting realism and form. I make every stroke deliberate, focusing on depth, tension, and structure. It comes down to two things: using contrast to guide the eye and texture to communicate story. These graphite pieces are not just drawings; they’re executed moments brought to life.      
           </p>
+          <p className="carInfo1">I sculpt realism through deliberate shading, focusing on depth, tension, and structure. My method uses contrast to guide the eye and texture to communicate story in every graphite piece.</p>
           <div className="insta">
           <p><b>Do Follow</b></p>
           <a href="https://www.instagram.com/arte_playlist/">
