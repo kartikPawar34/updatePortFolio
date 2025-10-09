@@ -118,7 +118,7 @@
     top:0; 
   }
   .FixWelPage{
-    background:url("FixWallpaper1.jpg");
+    background:url("../public/FixWallpaper1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -460,8 +460,8 @@
     flex: 0 0 90%;
   }
   .gallery-image {
-    width:85%;
-    height:20rem;
+    width:90%;
+    height:15rem;
     margin:auto;
   }
   .skills-content {
