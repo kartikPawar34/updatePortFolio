@@ -217,9 +217,8 @@
     position: relative;
   }
   .skill-bar-inner {
-    background-color: #3ca7ff; 
+    background-color: #ffffff; 
     height: 100%;
-    border-radius: 0.25rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -266,6 +265,9 @@
           height: 4.5rem;
           font-size: 1.6rem;
           cursor: pointer; 
+      }
+      .link{
+          
       }
       .w3-button {
           width: 5rem;
