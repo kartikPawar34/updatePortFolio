@@ -252,8 +252,10 @@ a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 2rem 0;
+  max-width: var(--site-max-width);
+  margin: 2rem auto;
   gap: 1.25rem;
+  overflow: hidden; /* Fixes container overflow */
 }
 
 .cards {
@@ -261,10 +263,12 @@ a:hover {
   gap: 1.5rem;
   overflow-x: auto;
   scroll-behavior: smooth;
+  scroll-snap-type: x mandatory; /* Snap cards into view */
   padding: 1rem 0.5rem;
   width: 100%;
   scrollbar-width: none; /* Firefox */
   color: var(--text-muted);
+  box-sizing: border-box;
 }
 
 .cards::-webkit-scrollbar {
@@ -273,14 +277,15 @@ a:hover {
 
 /* Card Base Structure */
 .card {
-  min-width: 280px;
-  max-width: 360px;
-  flex: 0 0 auto;
+  flex: 0 0 100%; /* Default mobile width */
+  max-width: 100%;
   padding: 1.5rem;
   border-radius: 1rem;
   border: 1px solid var(--glass-border);
   backdrop-filter: blur(10px);
   background: linear-gradient(135deg, rgba(78, 78, 78, 0.25), rgba(0, 0, 0, 0.4));
+  scroll-snap-align: center;
+  box-sizing: border-box;
   
   display: flex;
   flex-direction: column;
@@ -362,7 +367,7 @@ a:hover {
   z-index: 5;
 }
 
-/* Nav Button Reset (Centered below cards/slideshow, no absolute positioning) */
+/* Nav Button Reset */
 .nav-btn {
   position: static;
   transform: none;
@@ -512,12 +517,21 @@ a:hover {
   .slide-wrapper {
     min-height: 350px;
   }
+
+  /* Show 2 cards side by side cleanly */
+  .card {
+    flex: 0 0 calc(50% - 0.75rem);
+    max-width: calc(50% - 0.75rem);
+  }
 }
 
 /* Desktop & Up (1024px+) */
 @media (min-width: 1024px) {
+  /* Show 3 cards side by side cleanly */
   .card {
-    min-width: 320px;
+    flex: 0 0 calc(33.333% - 1rem);
+    max-width: calc(33.333% - 1rem);
+    min-width: unset;
   }
 }
 
