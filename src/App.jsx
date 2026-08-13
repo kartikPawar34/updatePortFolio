@@ -8,7 +8,7 @@ import Footers from "../src/pages/footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/updatePortFolio">
       <Routes>
         <Route path="/" element={<Portfolio />} />
         <Route path="/about" element={<Aboutme />} />
