@@ -16,7 +16,7 @@ function Projects() {
 
   return (
     <div className="container L4">
-      <h1>Academic Projects</h1>
+      <h1>Projects</h1>
 
       <div className="carousel-wrapper">
         {/* Scrollable Cards Container */}

@@ -16,9 +16,19 @@ function Artlist() {
 
   return (
     <div className="container L6">
-      <h1>Art Section</h1>
-
       <div className="slideshow-1">
+        <div className="line">
+        <div className="cards">
+          <p className="info">
+            <h1 className="CURSIVE aligning">Artsection</h1>
+            
+            Shading is my tool for sculpting realism and form. I make every
+            stroke deliberate, focusing on depth, tension, and structure. It
+            comes down to two things: using contrast to guide the eye and
+            texture to communicate story. These graphite pieces are not just
+            drawings; they’re executed moments brought to life.
+          </p>
+        </div>
         <div className="slide-wrapper">
           {projectData.map((project, index) => (
             <div
@@ -34,18 +44,8 @@ function Artlist() {
             </div>
           ))}
         </div>
-
-        <div className="cards">
-          <p className="info">
-            Shading is my tool for sculpting realism and form. I make every
-            stroke deliberate, focusing on depth, tension, and structure. It
-            comes down to two things: using contrast to guide the eye and
-            texture to communicate story. These graphite pieces are not just
-            drawings; they’re executed moments brought to life.
-          </p>
         </div>
 
-        {/* Centered Controls at Bottom */}
         <div className="carousel-controls">
           <button
             className="nav-btn prev-btn"

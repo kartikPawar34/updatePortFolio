@@ -16,8 +16,8 @@ function Certificate() {
 
   return (
     <div className="container L6">
-      <h1>Certification</h1>
       <div className="slideshow-1">
+        <div className="line">
         <div className="slide-wrapper">
           {projectData.map((project, index) => (
             <div
@@ -36,12 +36,14 @@ function Certificate() {
 
         <div className="cards">
           <p className="info">
+          <h1 className="CURSIVE aligning">Certification</h1>
             I’ve built my technical foundation through specialized certifications in
             Agile methodologies, Cloud Computing (IBM-Coursera), CCNA (Cisco), and
             Cybersecurity fundamentals. These programs have equipped me with practical
             knowledge in cloud-native architecture, network configuration, secure
             system design, and agile project execution.
           </p>
+        </div>
         </div>
 
         {/* Centered Controls at Bottom */}

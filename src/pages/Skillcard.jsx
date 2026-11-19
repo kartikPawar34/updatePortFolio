@@ -16,7 +16,7 @@ function Skillcards() {
 
   return (
     <div className="container L3">
-      <h1>Service Learning & Applied Training</h1>
+      <h1>Learning & Training</h1>
 
       <div className="carousel-wrapper">
         {/* Scrollable Cards Container */}

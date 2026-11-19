@@ -12,7 +12,7 @@ function Links() {
         rel="noopener noreferrer"
         aria-label="LinkedIn Profile"
       >
-        <img src={linkedin} alt="LinkedIn" style={{ height: "2rem" }} />
+        <img src={linkedin} alt="LinkedIn" style={{ height: "2rem" }} className="ancerimg"/>
       </a>
       <a 
         href="https://github.com/kartikPawar34" 
@@ -20,7 +20,7 @@ function Links() {
         rel="noopener noreferrer"
         aria-label="GitHub Profile"
       >
-        <img src={github} alt="GitHub" style={{ height: "2rem" }} />
+        <img src={github} alt="GitHub" style={{ height: "2rem" }} className="ancerimg"/>
       </a>
       <a 
         href="https://www.instagram.com/arte_playlist/" 
@@ -28,7 +28,7 @@ function Links() {
         rel="noopener noreferrer"
         aria-label="Instagram Profile"
       >
-        <img src={instagram} alt="Instagram" style={{ height: "2rem" }} />
+        <img src={instagram} alt="Instagram" style={{ height: "2rem" }} className="ancerimg"/>
       </a>
     </div>
   );
